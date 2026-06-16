@@ -68,3 +68,29 @@ header{
 .close:hover{
     cursor:pointer;
 }
+
+
+nav{
+    width:50%;
+    height:auto;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+nav>li{
+    list-style-type: none;
+}
+
+
+nav a{
+    text-decoration: none;
+    color:darkblue;
+    font-size:18px;
+    font-weight: bold;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
