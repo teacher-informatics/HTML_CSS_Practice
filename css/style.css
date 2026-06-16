@@ -43,3 +43,28 @@ header{
     font-weight: bold;
     font-style: italic;
 }
+
+
+.toggle{
+    color:darkblue;
+    top:30px;
+    left:30px;
+    font-size:30px;
+    display:none;
+  }
+  
+.toggle:hover{
+    cursor:pointer;
+  }
+  
+.close{
+    color:darkblue;
+    top:24px;
+    left:30px;
+    font-size:50px;
+    display:none;
+}
+  
+.close:hover{
+    cursor:pointer;
+}
